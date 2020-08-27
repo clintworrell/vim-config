@@ -1,0 +1,35 @@
+"*************************
+"  Plugins
+"*************************
+call plug#begin()
+
+Plug 'hashivim/vim-terraform'  " Terraform
+Plug 'preservim/nerdtree'  " File system explorer
+Plug 'vim-airline/vim-airline'  " Statusline
+Plug 'tpope/vim-commentary'  " Comments
+Plug 'tpope/vim-fugitive'  " Git commands
+Plug 'fatih/vim-go'  " Golang
+" Plug 'davidhalter/jedi-vim'  " Python autocompletion
+Plug 'airblade/vim-gitgutter'  " Git visual diff
+
+call plug#end()
+
+
+"*************************
+"  Tabs / Spaces / Lines
+"*************************
+set ts=4  " Set tabs to have 4 spaces
+set expandtab  " Expand tabs to spaces
+set relativenumber  " Lines have relative line numbers
+
+
+"*************************
+"  Airline
+"*************************
+set laststatus=2
+
+
+"*************************
+"  Colors
+"*************************
+colorscheme murphy
